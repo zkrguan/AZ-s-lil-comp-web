@@ -1,5 +1,6 @@
 .Header-Bar-Whole{
     padding-top: 8px;
+    padding-bottom: 8px;
     padding-right: 40px;
     padding-left: 55px;
     height: 40px;
@@ -8,5 +9,10 @@
     /* margin-left: 40px; */
     margin-right: 40px;
     background-color: black;
+}
+
+.Phone-Num-Text{
+    font-size: 20px;
+    font-weight: 600;
 }
 

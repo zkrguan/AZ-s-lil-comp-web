@@ -6,7 +6,9 @@ const HeaderBar: React.FC = () => {
     <Container className="Header-Bar-Whole">
         <Row>
             <Col xs={8} className="justify-content-start">&#x1f1e8;&#x1f1e6; &#127809; A Canadian Company Proudly Based In Greater Toronto Area  </Col>
-            <Col xs={4} className="justify-content-end">Call/text us now! [your number goes here]</Col>
+            <Col xs={4} className="justify-content-end">
+                <span className="Phone-Num-Text"> Call/text us now! [your number goes here]</span>
+            </Col>
         </Row>
     </Container>
   );
