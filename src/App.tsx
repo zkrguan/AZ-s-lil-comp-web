@@ -1,12 +1,13 @@
 import "./App.css";
-import Navbar from "./components/ui/Navbar";
+import HeaderBar from "./components/ui/HeaderBar/HeaderBar";
+import NavBarUI from "./components/ui/NavBarUI/NavBarUI";
 
 
 function App() {
   return (
     <div>
-      <Navbar />
-      back to stage 1
+      <HeaderBar />
+      <NavBarUI />
     </div>
   );
 }

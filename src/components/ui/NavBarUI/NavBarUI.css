@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.Nav-Bar-Element{
+  /* nav bar links rules */
+  font-family: 'Lato','sans-serif';
+  font-weight: 600;
+  font-size:  1.5em;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-logo-img{
+/* logo image css rules */
+ padding: 12px;
+ padding-bottom: 15px;
+}
+
+
+.Nav-Brand{
+/* nav brand contains logo images*/
+  margin-right: 100px;
+}
+
+.Nav-Bar-Container{
+  /* This is the whole nav bar content contains images and element */
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.Nav-Bar-Whole{
+  /* Make the bar thinner */
+  height: 90px;
+  /* border-radius: 10px 10px 13px 13px; */
+}
