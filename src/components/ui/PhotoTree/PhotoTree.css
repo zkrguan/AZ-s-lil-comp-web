@@ -1,0 +1,29 @@
+.Photo-Tree{
+    background-color: rgb(124, 81, 85);
+    padding: 1vh;
+}
+
+/* Making sure all the photos from tree display properly */
+.tree-img{
+    width: 200px;
+    height: 300px;
+    margin: 1vh;
+    border-radius: 10px;
+}
+
+.Left-Tree {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+}
+
+.Right-Tree{
+    padding-top: 10vh;
+    display: flex;
+    max-width: fit-content;
+    flex-direction: column;
+}
+
+.Photo-Tree{
+    max-width: fit-content;
+}
