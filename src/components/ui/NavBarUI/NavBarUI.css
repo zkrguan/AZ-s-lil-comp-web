@@ -29,5 +29,6 @@
 .Nav-Bar-Whole{
   /* Make the bar thinner */
   height: 90px;
+  /* In case you want rounded edge Nav Bar */
   /* border-radius: 10px 10px 13px 13px; */
 }

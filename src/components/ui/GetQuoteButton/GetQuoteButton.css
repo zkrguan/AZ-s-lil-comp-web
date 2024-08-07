@@ -1,0 +1,15 @@
+.Quote-Button{
+    background-color:#fbdb84;
+    border-color: transparent;
+    border-radius: 20px;
+    font-weight: 700;
+    color: rgb(34, 34, 34, 0.7);
+}
+
+.Quote-Button:hover{
+    background-color:#f9cd53;
+    color: rgb(34, 34, 34, 0.7);
+    border-color: transparent;
+    border-radius: 20px;
+    font-weight: 900;
+}
