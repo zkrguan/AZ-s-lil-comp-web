@@ -11,9 +11,23 @@ const PhotoTree: React.FC = () => {
             <img className="tree-img"src="/2.jpg" />
             <img className="tree-img"src="/2.jpg" />
             <img className="tree-img"src="/3.jpg" />
+            <img className="tree-img"src="/3.jpg" />
+            <img className="tree-img"src="/3.jpg" />
+            <img className="tree-img"src="/3.jpg" />
+            <img className="tree-img"src="/3.jpg" />
+            <img className="tree-img"src="/3.jpg" />
+            <img className="tree-img"src="/3.jpg" />
+            <img className="tree-img"src="/3.jpg" />
         </Col>
 
         <Col className="Right-Tree Tree">
+            <img className="tree-img" src="/4.jpg" />
+            <img className="tree-img" src="/4.jpg" />
+            <img className="tree-img" src="/4.jpg" />
+            <img className="tree-img" src="/4.jpg" />
+            <img className="tree-img" src="/4.jpg" />
+            <img className="tree-img" src="/4.jpg" />
+            <img className="tree-img" src="/4.jpg" />
             <img className="tree-img" src="/4.jpg" />
             <img className="tree-img" src="/4.jpg" />
             <img className="tree-img" src="/4.jpg" />

@@ -1,6 +1,22 @@
+/* 2d effects goes here */
+
+@keyframes photo-moving-effect {
+    from {
+        transform: translate3d(0vh, 0vh ,0vh);
+    }
+    to {
+        transform: translate3d(0vh, -50vh, 0vh);
+    }
+}
+
 .Photo-Tree{
+    /* Debug color */
     background-color: rgb(124, 81, 85);
     padding: 1vh;
+    position: relative;
+    /* Ensure overflow photos will be covered */
+    overflow: hidden; 
+    max-height: 100vh;
 }
 
 /* Making sure all the photos from tree display properly */
@@ -9,21 +25,31 @@
     height: 300px;
     margin: 1vh;
     border-radius: 10px;
+    box-shadow: 0.5px 0.5px 0.5px 1px black;
+    /* z-index: -1; */
 }
 
-.Left-Tree {
+.Left-Tree,.Right-Tree {
     display: flex;
     flex-direction: column;
     max-width: fit-content;
+    transform-style: preserve-3d;
+    will-change: transform;
+    /* animation: photo-moving-effect 5s infinite; */
+    animation-name: photo-moving-effect;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
 }
 
+/* Having some offsets between two photo trains */
 .Right-Tree{
     padding-top: 10vh;
-    display: flex;
-    max-width: fit-content;
-    flex-direction: column;
 }
 
 .Photo-Tree{
     max-width: fit-content;
 }
+
+
