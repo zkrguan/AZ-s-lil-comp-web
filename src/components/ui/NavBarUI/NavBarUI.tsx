@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import "./NavBarUI.css";
 import { Nav, NavDropdown } from "react-bootstrap";
-import GetQuoteButton from "../GetQuoteButton/GetQuoteButton";
+import GetQuoteButton from "../../assets/GetQuoteButton/GetQuoteButton";
 const NavBarUI: React.FC = () => {
   return (
     <Navbar

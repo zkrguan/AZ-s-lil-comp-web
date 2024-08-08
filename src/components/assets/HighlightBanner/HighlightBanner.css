@@ -1,0 +1,14 @@
+.Highlight-Banner-Container{
+    background-color: black;
+    width: 100%;
+    max-width:500vh;
+    height: 40vh;
+    color: azure;
+    margin-bottom: 3vh;
+    padding-left: 100px;
+}
+
+.Icon-SVG{
+    height:5em;
+    width:5em;
+}

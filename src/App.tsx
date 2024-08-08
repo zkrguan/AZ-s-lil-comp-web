@@ -1,6 +1,6 @@
 import "./App.css";
 import BodyUI from "./components/ui/BodyUI/BodyUI";
-import HeaderBar from "./components/ui/HeaderBar/HeaderBar";
+import HeaderBar from "./components/assets/HeaderBar/HeaderBar";
 import NavBarUI from "./components/ui/NavBarUI/NavBarUI";
 
 

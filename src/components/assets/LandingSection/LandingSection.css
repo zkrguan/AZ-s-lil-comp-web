@@ -1,0 +1,37 @@
+.Photo-Tree-Column1 {
+    padding: 0.5vh;
+}
+
+/* The text description css rules 
+    Beside the photo train
+*/
+.Photo-Tree-Column2{
+    padding: 0.5vh;
+    background-color: aqua;
+}
+
+
+.Text-Box-Home{
+  background-color: rgb(137, 47, 179);
+  padding: 1vh;
+  max-height: 100vh;
+  height: 100vh;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+.Browse-Project-Button{
+    background-color:#fbdb84;
+    border-color: transparent;
+    border-radius: 20px;
+    font-weight: 700;
+    color: rgb(34, 34, 34, 0.7);
+}
+
+.Browse-Project-Button :hover{
+    background-color:#f9cd53;
+    color: rgb(34, 34, 34, 0.7);
+    border-color: transparent;
+    border-radius: 20px;
+    font-weight: 900;
+}
