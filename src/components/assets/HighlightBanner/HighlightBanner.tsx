@@ -5,7 +5,7 @@ const HighlightBanner = ()=>{
     return (
         <Container className='Highlight-Banner-Container'>
             <Row className='Row'>
-                <Col>
+                <Col className='Highlight-Banner-Background'>
                     <Row>
                         <img className='Icon-SVG' src='/diamond-icon.svg'></img>
                     </Row>

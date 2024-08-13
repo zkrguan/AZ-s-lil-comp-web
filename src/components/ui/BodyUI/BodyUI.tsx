@@ -3,6 +3,7 @@ import "./BodyUI.css";
 
 import LandingSection from "../../assets/LandingSection/LandingSection";
 import HighlightBanner from "../../assets/HighlightBanner/HighlightBanner";
+import GalleryGrid from "../../assets/GalleryGrid/GalleryGrid";
 
 const BodyUI: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const BodyUI: React.FC = () => {
         <LandingSection></LandingSection>
       </Container>
       <HighlightBanner></HighlightBanner>
+      <GalleryGrid></GalleryGrid>
     </div>
   );
 };
