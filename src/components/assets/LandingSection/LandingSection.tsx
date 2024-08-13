@@ -22,7 +22,7 @@ const LandingSection = ()=>{
             </Row>
             <Row>
               <Col>
-                <Button className="-Project-Button" >Browse
+                <Button className="Browse-Project-Button" >
                   Our projects
                 </Button>
               </Col>

@@ -28,7 +28,7 @@
     color: rgb(34, 34, 34, 0.7);
 }
 
-.Browse-Project-Button:hover{
+.Browse-Project-Button :hover{
     background-color:#f9cd53;
     color: rgb(34, 34, 34, 0.7);
     border-color: transparent;
