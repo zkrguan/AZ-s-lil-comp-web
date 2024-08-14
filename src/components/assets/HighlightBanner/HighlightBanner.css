@@ -1,12 +1,11 @@
 .Highlight-Banner-Container{
     background-color: black;
     width: 100%;
-    max-width: 1000vh;
     height: fit-content;
     color: azure;
     margin-bottom: 3vh;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 16%;
+    padding-right: 16%;
 }
 
 .Icon-SVG{
@@ -18,3 +17,4 @@
     width: 100%;
     background-color: black;
 }
+

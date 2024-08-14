@@ -1,13 +1,13 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import './HighlightBanner.css'
 
-const HighlightBanner = ()=>{
+const HighlightBanner = () => {
     return (
-        <Container className='Highlight-Banner-Container'>
-            <Row className='Row'>
+        <Container fluid className='Highlight-Banner-Container'>
+            <Row>
                 <Col className='Highlight-Banner-Background'>
                     <Row>
-                        <img className='Icon-SVG' src='/diamond-icon.svg'></img>
+                        <img className='Icon-SVG' src='/diamond-icon.svg' alt="Icon"></img>
                     </Row>
                     <Row>
                         <h3>I am Highlight's Eye Catcher</h3>                        
@@ -18,7 +18,7 @@ const HighlightBanner = ()=>{
                 </Col>
                 <Col>
                     <Row>
-                        <img className='Icon-SVG' src='/new-label-icon.svg'></img>
+                        <img className='Icon-SVG' src='/new-label-icon.svg' alt="Icon"></img>
                     </Row>
                     <Row>
                         <h3>I am Highlight's Eye Catcher</h3>                        
@@ -29,9 +29,7 @@ const HighlightBanner = ()=>{
                 </Col>
             </Row>
         </Container>
-
     )
-
 }
 
 export default HighlightBanner;

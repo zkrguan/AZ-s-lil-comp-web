@@ -1,5 +1,60 @@
-.Gallery-Container{
-    margin-bottom: 30vh;    
-    text-align: left;    
+.Gallery-Grid-Container {
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem;
+    margin-bottom: 50vh;
+}
+
+.Gallery-Grid-Desc {
+    order: -1; /* Ensure The header stays at the top */
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: beige;
+}
+
+
+.Gallery-Grid-Column {
+    flex: 1; 
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: aqua;
+    position: relative; 
+}
+
+.Gallery-Grid-Column:hover {
+    flex: 3; 
+}
+
+.Gallery-Grid-Column:hover .Caption {
+    opacity: 1; 
+}
+
+
+.Gallery-Grid-Column img {
+    width: 100vh;
+    height: 80vh;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.Gallery-Grid-Column:not(:hover) {
+    flex: 1; 
+}
+
+.Gallery-Grid-Column .Caption {
+    position: absolute; 
+    /* Left bottom align */
+    bottom: 0; 
+    left: 0;
+    /* Display all the text */
+    width: 100%;
+    padding: 10px;
+    color: white;
+    /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.6); 
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
 }
 
