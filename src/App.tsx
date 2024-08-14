@@ -2,6 +2,7 @@ import "./App.css";
 import BodyUI from "./components/ui/BodyUI/BodyUI";
 import HeaderBar from "./components/assets/HeaderBar/HeaderBar";
 import NavBarUI from "./components/ui/NavBarUI/NavBarUI";
+import FooterUI from "./components/ui/FooterUI/FooterUI";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <HeaderBar />
       <NavBarUI />
       <BodyUI />
+      <FooterUI />
     </div>
   );
 }
